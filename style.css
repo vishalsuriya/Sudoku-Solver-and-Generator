@@ -1,0 +1,163 @@
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid red;
+}
+h1 {
+    font-size: 45pt;
+}
+#choose {
+    display: flex;
+    justify-content: center;
+}
+#choose>* {
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
+button {
+    justify-self: center;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+hr {
+    width: 500px;
+}
+#errors {
+    color: coral;
+    text-align: center;
+}
+#board {
+    width: 460px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#digits {
+    width: 450px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tile {
+    width: 48px;
+    height: 48px;
+    border: 1px solid lightgray;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.number {
+    width: 43.3px;
+    height: 43.3px;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+
+}
+.number-selected {
+    background-color: gray;
+}
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+.vertical-line {
+    border-right: 1px solid black;
+}
+#start-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+#start-btn:hover {
+    background-color: #0056b3;
+}
+#ten-countdown {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    bottom: 530px;
+    margin-right: 10px;
+    left:425px;
+}
+#timer {
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    color: red;
+  position: absolute;
+  bottom: 530px;
+  left:500px;
+}
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+.dark-theme {
+    --background-color: #333333;
+    --text-color: #ffffff;
+}
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+.dark-theme body {
+    background-color: #333333;
+    color: #ffffff;
+}
+.dark-theme .tile {
+    color: #ffffff;
+}
+.solution {
+    text-align: center;
+    margin-top: 20px;
+}
+.sudoku-solution table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    position: absolute;
+    bottom: 80px;
+    left:1250px;
+}
+.sudoku-solution td {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    border: 1px solid #000000;
+}
+#view-solution-btn {
+    background-color:green;
+    position: absolute;
+}
+#view-solution-btn{
+    position: absolute;
+    bottom: 500px;
+    left:1350px;
+    background-color:green;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
