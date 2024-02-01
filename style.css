@@ -95,7 +95,7 @@ hr {
     font-weight: bold;
     display: inline-block;
     position: absolute;
-    bottom: 530px;
+    bottom: 330px;
     margin-right: 10px;
     left:425px;
 }
@@ -105,7 +105,7 @@ hr {
     display: inline-block;
     color: red;
   position: absolute;
-  bottom: 530px;
+  bottom: 330px;
   left:500px;
 }
 :root {
@@ -135,8 +135,10 @@ body {
     margin: 0 auto;
     border-collapse: collapse;
     position: absolute;
-    bottom: 80px;
-    left:1250px;
+    bottom: 10px;
+    top: 350px;
+    right: 20px;
+    left:1000px;
 }
 .sudoku-solution td {
     width: 40px;
@@ -152,8 +154,8 @@ body {
 }
 #view-solution-btn{
     position: absolute;
-    bottom: 500px;
-    left:1350px;
+    bottom: 300px;
+    left:1100px;
     background-color:green;
     color: #ffffff;
     border: none;
